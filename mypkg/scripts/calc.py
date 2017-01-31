@@ -6,8 +6,7 @@ import numpy as np
 import cv2
 
 def cb(message):
-    
-    st = math.sqrt(message.data)
+   　
     global n
     rate = 3.14
     n = message.data
